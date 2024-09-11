@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #hero {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+  }
+  
+  .hero-content span {
+    color: #fff500;
+  }
+  
+  #about, #projects, #skills, #testimonials, #contact {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-content img {
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .skills-bars {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    padding: 10px;
+    border-radius: 5px
+  }  
